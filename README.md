@@ -1,6 +1,6 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:1a0b2e,50:6d28d9,100:a78bfa&height=220&section=header&text=Lucas%20Berns&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Computer%20Science%20Student%20%7C%20Automation%20%26%20Generative%20AI&descAlignY=58&descSize=18)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:1a0b2e,50:6d28d9,100:a78bfa&height=220&section=header&text=Lucas%20Berns&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Computer%20Science%20Student%20%2D%20Automation%20and%20Generative%20AI&descAlignY=58&descSize=18)
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=CS+Student+%40+IFSC+Campus+Lages;R%26D+Intern+%40+iMaps+Intelligence;n8n+%2B+Generative+AI+Automation;Python+%7C+Java+%7C+SQL" alt="Typing SVG" />
@@ -8,7 +8,7 @@
 
 <br/>
 
-![IFSC](https://img.shields.io/badge/IFSC-Campus_Lages-6d28d9?style=flat-square&logo=academia&logoColor=white)
+![IFSC](https://img.shields.io/badge/IFSC-Campus_Lages-6d28d9?style=flat-square)
 ![Location](https://img.shields.io/badge/Location-Lages,_SC,_Brazil-4c1d95?style=flat-square&logo=googlemaps&logoColor=white)
 ![English](https://img.shields.io/badge/English-C1_(London_Exchange)-7c3aed?style=flat-square&logo=googletranslate&logoColor=white)
 
@@ -174,38 +174,6 @@ open_to:
 | Recognition | Details |
 |---|---|
 | **REUNI Challenge 2025 — Finalist** | Finalist team representing IFSC Campus Lages in the 2025 (6th) edition of REUNI Challenge, Brazil's largest university entrepreneurship competition — 23 teams from 21 institutions competed, 11 reached the final round. |
-
-</div>
-
----
-
-### 📊 GitHub Analytics
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=lucasberns&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=a78bfa&text_color=c9d1d9)
-![Streak Stats](https://streak-stats.demolab.com?user=lucasberns&theme=tokyonight&hide_border=true&background=0d1117&ring=a78bfa&fire=a78bfa&currStreakLabel=a78bfa)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=lucasberns&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9)
-
-</div>
-
----
-
-### 📈 Contribution Activity
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=lucasberns&theme=tokyo-night&bg_color=0d1117&color=a78bfa&line=8b5cf6&point=ffffff&hide_border=true)
-
-<!--
-⚠️ A cobra abaixo só renderiza depois que você configurar o GitHub Action (instruções logo após o arquivo).
-Se seu histórico de commits públicos for baixo, a cobra vai sair curta/vazia — o problema de atividade
-não desaparece, só muda de formato visual. Considere subir commits reais dos seus projetos pessoais
-(hair care app, fitness hub) antes de publicar esta seção.
--->
-
-<div align="center">
-
-![Snake animation](https://raw.githubusercontent.com/lucasberns/lucasberns/output/github-contribution-grid-snake-dark.svg)
 
 </div>
 
