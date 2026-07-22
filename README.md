@@ -131,8 +131,7 @@ learning:
 
 building:
   - LLM-as-Judge evaluation harness (independent project, Python)
-  - AUTO-Avaliador improvements at iMaps Analytics
-  - Personal PWA tools (fitness, hair care)
+  - Personal PWA tools (fitness hub)
 
 exploring:
   - AI evaluation methodology and applied ML
