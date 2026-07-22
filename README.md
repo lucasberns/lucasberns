@@ -1,9 +1,10 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:1a0b2e,50:6d28d9,100:a78bfa&height=220&section=header&text=Lucas%20Berns&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Computer%20Science%20Student%20%2D%20Automation%20and%20Generative%20AI&descAlignY=58&descSize=18)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:1a0b2e,50:6d28d9,100:a78bfa&height=220&section=header&text=Lucas%20Berns&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Computer%20Science%20Student%20%2D%20GenAI%20Automation%20and%20ML&descAlignY=58&descSize=18)
+
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=CS+Student+%40+IFSC+Campus+Lages;R%26D+Intern+%40+iMaps+Intelligence;n8n+%2B+Generative+AI+Automation;Python+%7C+Java+%7C+SQL" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=CS+Student+%40+IFSC+Campus+Lages;R%26D+Intern+%40+iMaps+Analytics;n8n+%2B+Generative+AI+Automation;Python+%7C+Java+%7C+SQL" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -26,15 +27,15 @@
 
 ### 📖 About Me
 
-I'm a Computer Science student at the **Federal Institute of Santa Catarina (IFSC Campus Lages)**, class of 2025–2029, with international experience from a cultural and educational exchange program in **London (C1 English level)**.
+I'm a Computer Science student at **IFSC Campus Lages** (2025–2029), with international experience from a cultural and educational exchange program in **London (C1 English)**.
 
-I currently intern in **Innovation & R&D at iMaps Intelligence**, where I build internal process automations using **n8n** and integrate **generative AI models (Gemini)** into real production workflows — from automated scheduling agents to automation-viability scoring tools.
+I currently intern in **Innovation & R&D at iMaps Analytics**, building production automations with **n8n** and integrating **generative AI models (Gemini, Anthropic)** into real workflows — an email-parsing scheduling agent, an automation-viability scoring tool with executive analysis, and pipelines for competitive analysis and content generation.
 
-Previously, I interned in **IT Support at the Santa Catarina State Judiciary (TJSC)**, handling hardware/software issues and reducing average internal ticket response time.
+My next step is moving from orchestrating third-party APIs to **training and evaluating models myself** — I'm currently studying and practicing this outside of work, through independent projects on AI evaluation (LLM-as-Judge).
 
-Outside of work, I build small PWA/HTML tools for personal use, hosted on GitHub Pages with a self-hosted **n8n** backend, and I keep a running interest in personal finance and self-improvement.
+Previously, I interned in **IT Support at the Santa Catarina State Judiciary (TJSC)**.
 
-**Open to:** internships and junior opportunities in backend/full-stack development and AI-integration/automation engineering.
+**Open to:** internships in GenAI / AI-automation engineering, with a long-term trajectory toward Machine Learning Engineering.
 
 ---
 
@@ -57,6 +58,7 @@ Outside of work, I build small PWA/HTML tools for personal use, hosted on GitHub
 
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic_API-191919?style=flat-square&logo=anthropic&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=github&logoColor=white)
@@ -65,14 +67,14 @@ Outside of work, I build small PWA/HTML tools for personal use, hosted on GitHub
 
 ### 💼 Experience
 
-**iMaps Intelligence** — Innovation & R&D Intern
+**iMaps Analytics** — Innovation & R&D Intern
 `Apr 2026 – Present`
 
-- Developed internal process automations with n8n, including a scheduling and task-tracking agent that organizes weekly agendas based on parsed emails.
+- Built production generative AI automations with n8n, including an agent that reads emails via the Anthropic API to organize weekly schedules and pending tasks.
 - Designed and implemented an automation-viability assessment tool (**AUTO-Avaliador**) with AI-generated scoring and executive analysis.
-- Researched and compared tooling options for an AI-driven video clipping pipeline (OpusClip, Shotstack, Whisper, yt-dlp, RapidAPI) for automated short/long-form clip generation.
+- Integrated multiple APIs (Gemini, Anthropic, RapidAPI) and OAuth authentication into competitive-analysis pipelines and multi-profile content generation.
 
-`n8n` `Gemini API` `Process Automation` `Webhooks`
+`n8n` `Gemini API` `Anthropic API` `Process Automation` `Webhooks`
 
 <br/>
 
@@ -88,46 +90,21 @@ Outside of work, I build small PWA/HTML tools for personal use, hosted on GitHub
 
 ### 🚀 Featured Projects
 
-<details>
-<summary><b>AUTO-Avaliador</b> — Automation Viability Scoring Tool</summary>
+<details open>
+<summary><b>📊 Wine Price Regression</b> — Small-Sample Case Study</summary>
 
 <br/>
 
-A single-page tool that collects process parameters and uses the Gemini API (via n8n webhooks) to generate an automation-viability score (0–100) along with an executive AI-written analysis.
+A study on how linear regression behaves with very little data (25 rows, the classic Bordeaux wine dataset from Ashenfelter's 1990 paper). The real question wasn't "can I fit a regression" — it was whether wild swings in cross-validation R² across folds meant overfitting, or were just noise from a 5-row validation set.
+
+**Why it's interesting:** first read of the fold-by-fold R² (`0.766, 0.820, 0.711, 0.535, 0.252`) looked like classic overfitting. But checking training R² across the same folds (`0.813, 0.798, 0.832, 0.855, 0.868` — stable, no gap) ruled that out. Train/val gap analysis showed the real explanation: a couple of validation folds happened to land on unusual vintages, not the model memorizing data. The initial hypothesis was wrong, and the analysis says so directly instead of forcing the data to fit the expected story.
 
 | | |
 |---|---|
-| **Stack** | HTML/JS, n8n, Gemini API |
-| **Integration** | Webhook-based scoring pipeline |
-| **Challenges solved** | CSP restrictions, iframe localStorage sandboxing, Blob URL-based PDF export |
-| **Context** | Built for internal use at iMaps Intelligence |
-
-</details>
-
-<details>
-<summary><b>Hair Care Routine App</b> — Personal PWA</summary>
-
-<br/>
-
-A PWA used daily for tracking a hair care routine, hosted on GitHub Pages with a self-hosted n8n instance handling backend data.
-
-| | |
-|---|---|
-| **Stack** | HTML/JS PWA, n8n backend |
-| **Status** | In active daily use |
-
-</details>
-
-<details>
-<summary><b>Fitness Hub</b> — Personal PWA</summary>
-
-<br/>
-
-A lightweight personal fitness tracking PWA, hosted on GitHub Pages with n8n handling data storage.
-
-| | |
-|---|---|
-| **Stack** | HTML/JS PWA, n8n backend |
+| **Stack** | Python, scikit-learn |
+| **Dataset** | Bordeaux wine dataset (Ashenfelter, 1990) — 25 vintages, 4 features |
+| **Key finding** | Fold-level R² volatility ≠ overfitting when training scores stay stable — it's a small-sample artifact |
+| **Repo** | [regression-study-case](https://github.com/lucasberns/regression-study-case) |
 
 </details>
 
@@ -147,22 +124,23 @@ A lightweight personal fitness tracking PWA, hosted on GitHub Pages with n8n han
 
 ```yaml
 learning:
-  - Differential and Integral Calculus (integration techniques, volumes of revolution)
-  - Operating Systems (memory management, file systems)
+  - Machine Learning fundamentals (independent study, outside coursework)
   - Data Structures (sorting algorithms, hash tables)
+  - Operating Systems (memory management, file systems)
   - Computer Networks
 
 building:
-  - AUTO-Avaliador improvements at iMaps Intelligence
+  - LLM-as-Judge evaluation harness (independent project, Python)
+  - AUTO-Avaliador improvements at iMaps Analytics
   - Personal PWA tools (fitness, hair care)
 
 exploring:
-  - AI-driven video clipping / automation pipelines
+  - AI evaluation methodology and applied ML
   - Personal finance systems and budgeting frameworks
 
 open_to:
-  - Backend / full-stack development roles
-  - AI-integration and automation engineering roles
+  - GenAI / AI-automation engineering internships
+  - Long-term trajectory: Machine Learning Engineering
 ```
 
 ---
@@ -184,12 +162,6 @@ open_to:
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lucas.alexandre.berns.oliveira@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/lucasberns)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lucasberns)
-
----
-
-<div align="center">
-
-*"Automating the process is easy — understanding why it matters is the actual job."*
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:a78bfa,50:6d28d9,100:1a0b2e&height=120&section=footer)
 
