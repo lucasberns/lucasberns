@@ -35,8 +35,6 @@ My next step is moving from orchestrating third-party APIs to **training and eva
 
 Previously, I interned in **IT Support at the Santa Catarina State Judiciary (TJSC)**.
 
-**Open to:** internships in GenAI / AI-automation engineering, with a long-term trajectory toward Machine Learning Engineering.
-
 ---
 
 ### 🛠️ Tech Stack
@@ -135,11 +133,6 @@ building:
 
 exploring:
   - AI evaluation methodology and applied ML
-  - Personal finance systems and budgeting frameworks
-
-open_to:
-  - GenAI / AI-automation engineering internships
-  - Long-term trajectory: Machine Learning Engineering
 ```
 
 ---
