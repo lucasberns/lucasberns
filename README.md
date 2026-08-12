@@ -31,7 +31,7 @@
   </div>
     </td>
     <td align="center" valign="middle" width="30%">
-      <img src="assets/side-image.png" width="220" alt="Side Image"/>
+      <img src="assets/side-image.gif" width="220" alt="Side Image"/>
     </td>
   </tr>
 </table>
